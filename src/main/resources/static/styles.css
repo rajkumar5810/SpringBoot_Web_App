@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;		/* Centers text horizontally */
+	/*background: yellow;		Body Page Covered by This color*/
+	background-image: url("/images/bodybg.jpg"); /*to set the body image*/
+	background-size: cover;		/* Ensure the image covers the entire page */
+}
+
+/**/
+.link-container {
+	display: flex;
+    gap: 50px;
+    justify-content: center;   /* Horizontally center the links */
+}
+a {
+	text-decoration: none;
+	size: 50px;
+}
+
+/* Styling for paragraph tags */
+p {
+	font-size: 16px;
+	color: #333;
+    margin: 10px 0;
+    text-align: justify; /* Justify the paragraph text */
+}
+
+/*Start the Login Page Styles Design*/
+.login-form {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+}
+a {
+	text-decoration: none;
+	size: 50px;
+}
+
+.image-link {
+	margin-top: 30px;
+}
+.image-link img {
+	width: 150px; /* Set image width */
+	height: auto; /* Maintain aspect ratio */
+	cursor: pointer; /* Make the image look clickable */
+}
